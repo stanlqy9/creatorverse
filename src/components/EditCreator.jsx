@@ -64,6 +64,7 @@ export default function EditCreator() {
         console.error("Error updating creator:", error);
       } else {
         console.log("Creator updated successfully:", data);
+        navigate('/')
       }
     } catch (error) {
       console.error("Error submitting form:", error);
